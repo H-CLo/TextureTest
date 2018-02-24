@@ -1,0 +1,19 @@
+disabled_rules: # 执行时排除掉的规则
+  # you can use -  'swiftlint rules' find
+  - trailing_whitespace
+  - cyclomatic_complexity
+  - identifier_name
+  - type_name
+  - function_body_length
+opt_in_rules: 
+  # you can use -  'swiftlint rules' find
+
+included:
+
+excluded:
+  - Pods
+
+line_length: 250
+function_parameter_count: 8
+function_body_length: 50
+function_parameter_count: 10
